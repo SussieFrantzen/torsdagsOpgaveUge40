@@ -1,10 +1,5 @@
 /* 1.a Lav en klasse, Customer, med attributterne (felterne/instansvariablene):
-String firstName
-String lastName
-String username
-int id
-static int counter
-*/
+String firstName, String lastName, String username, int id, static int counter */
 
 import java.util.ArrayList;
 
@@ -42,7 +37,7 @@ public class Customer {
         return firstName;
     }
         public void setFirstName(String firstName) {
-            if(firstName != null && !firstName.equals("") && firstName.length() > 1) {
+            if(firstName != null && !firstName.equals(" ") && firstName.length() > 1) {
                 this.firstName = firstName;
             }
         }

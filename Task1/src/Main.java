@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-    public class Main{
+public class Main{
         /*
         1.e Skriv en Main klasse med en main-metode, hvor der oprettes en ArrayList,
         som du kalder 'customers'.
